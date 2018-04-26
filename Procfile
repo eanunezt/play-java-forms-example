@@ -1,1 +1,1 @@
-web: java -jar target/java-getting-started-1.0.jar
+web: target/universal/stage/bin/play-java-forms-example -Dhttp.port=${PORT} -Dconfig.file=conf/application.conf
